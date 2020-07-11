@@ -1,0 +1,14 @@
+{
+  "name": "fcc-portfolio",
+  "version": "1.0.0",
+  "description": "Personal Portfolio website created to meet the user stories required by Founders & Coders and freeCodeCamp",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url ./",
+    "deploy": "yarn run build && rm -rf docs && mv dist docs"
+  },
+  "author": "Rahul Shah",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
+  }
+}
